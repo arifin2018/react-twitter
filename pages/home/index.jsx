@@ -1,4 +1,5 @@
 import React from 'react';
+import Layout from '@/layouts';
 
 export default function Home() {
 	return (
@@ -7,3 +8,11 @@ export default function Home() {
 		</>
 	);
 }
+
+Layout.getLayout = function getLayout(page) {
+	return (
+		<Layout>
+			{page}
+		</Layout>
+	);
+};
