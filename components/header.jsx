@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Header() {
 	return (
@@ -8,7 +9,9 @@ export default function Header() {
 				<div className="flex h-full justify-between items-end">
 					<div className="pl-[1.5%]">
 						<div className="rounded-full overflow-hidden relative h-[40px] w-[40px]">
-							<Image fill alt="picture" src="https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"/>
+							<Link href="/">
+								<Image fill alt="picture" src="https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"/>
+							</Link>
 						</div>
 					</div>
 					<div className="">
