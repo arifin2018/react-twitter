@@ -7,13 +7,14 @@ export const metadata = {
 export default function Layout({children}) {
 	return (
 		<>
-			<h1>HAHAHA</h1>
+			<h1 className='text-5xl text-right w-full text-orange-900 bg-emerald-500'>HAHAHA</h1>
 			{children}
-			<i className='bx bx-home text-red-800'></i>
-			<i className='bx bx-search-alt-2' ></i>
-			<i className='bx bxs-bell' ></i>
-			<i className='bx bx-envelope' ></i>
-			<i className='bx bx-envelope text-red-800' ></i>
+			<nav className='flex flex-row bg-neutral-700 w-full max-w-sm'>
+				<i className='bx bx-home text-red-800 basis-1/4 mr-32'></i>
+				<i className='bx bx-search-alt-2 basis-1/4' ></i>
+				<i className='bx bxs-bell basis-1/4' ></i>
+				<i className='bx bx-envelope basis-1/4' ></i>
+			</nav>
 		</>
 	);
 }
