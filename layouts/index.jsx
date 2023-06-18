@@ -9,7 +9,6 @@ export default function Layout({children}) {
 		<>
 			<h1>HAHAHA</h1>
 			{children}
-			<box-icon  type="solid" name="rocket"></box-icon>
 			<i className='bx bx-home text-red-800'></i>
 			<i className='bx bx-search-alt-2' ></i>
 			<i className='bx bxs-bell' ></i>
