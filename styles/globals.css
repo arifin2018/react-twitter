@@ -13,3 +13,15 @@ body {
   overflow-x: hidden;
   background-color: darkgray;
 }
+
+.active {
+  @apply text-blue-400
+}
+
+.border-b-black-1px{
+  @apply border-b-[1px] border-black
+}
+
+.border-t-black-1px{
+  @apply border-t-[1px] border-black
+}
